@@ -9,6 +9,7 @@ The application allows logged-in users to view data associated with their own ac
 ## What can go wrong?
 If the application uses a user ID from the request to determine which account data to return, a logged-in user could modify that ID and access another user’s data, thereby breaking access controls.
 ![Modified user ID request and response](../images/01-user-id-request.png)
+
 This was tested while logged in by modifying the user ID in the request used to retrieve account data. The application returned data belonging to a different user, confirming that the server's access controls were not enforced.
 
 ## How do we fix it?
