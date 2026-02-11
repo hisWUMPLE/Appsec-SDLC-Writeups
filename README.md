@@ -7,3 +7,4 @@ The write-ups are based on controlled lab environments and focus on understandin
 ## Write-ups
 1. [User ID Controlled by Request Parameter](writeups/01-user-id-controlled-by-request-parameter.md)
 2. [Unprotected Admin Functionality](writeups/02-unprotected-admin-functionality.md)
+3. [Case Study: Nationwide Pharmacy Prescriber Verification Outage](Case-Study-Nationwide-Pharmacy-Prescriber-Verification-Outage.md)
